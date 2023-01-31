@@ -11,3 +11,12 @@ h2 {
 ul li {
   list-style-type: none;
 }
+
+.schlechter-name {
+  background-color: green;
+  color: white;
+}
+
+#indeed {
+  background-color: yellow;
+}
