@@ -1,3 +1,13 @@
+/* Tag */
 h3 {
+  /* Property: Value = Declaration*/
   background-color: aquamarine;
+}
+
+h2 {
+  color: white;
+}
+
+ul li {
+  list-style-type: none;
 }
