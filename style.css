@@ -1,11 +1,19 @@
-/* Tag */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selector - Tag, Class, Id */
 h3 {
   /* Property: Value = Declaration*/
+  /* Mehrere Declarations = Declaration Block */
   background-color: aquamarine;
 }
 
 h2 {
-  color: white;
+  /* RGB - Red Green Blue (0-255) */
+  color: rgb(200, 60, 200);
+  /* RGBA - Red Green Blue Alpha (0.0-1.0) */
+  background-color: rgba(100, 0, 0, 0.3);
 }
 
 ul li {
@@ -14,7 +22,8 @@ ul li {
 
 .schlechter-name {
   background-color: green;
-  color: white;
+  /* Hexcode Farbcode */
+  color: #fff;
 }
 
 #indeed {
