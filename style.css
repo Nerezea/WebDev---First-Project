@@ -38,6 +38,7 @@ ul li {
   background-color: blueviolet;
 }
 
+/* HOVER VOR ACTIVE SONST FUNZT NICHT */
 a.test1:hover {
   color: black;
 }
