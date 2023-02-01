@@ -37,3 +37,11 @@ ul li {
 #firstid {
   background-color: blueviolet;
 }
+
+a.test1:hover {
+  color: black;
+}
+
+a.test1:active {
+  color: seashell;
+}
