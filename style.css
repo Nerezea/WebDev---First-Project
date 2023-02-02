@@ -46,3 +46,49 @@ a.test1:hover {
 a.test1:active {
   color: seashell;
 }
+
+.parent {
+  font-size: 80px;
+}
+
+/* Die 50% beziehen sich auf die 80px der parents */
+/* Default Value wären normalerweise 16px */
+/* absolute px */
+/* relative % em rem weil es abhängig von anderen faktoren ist */
+.parent p {
+  font-size: 50%;
+}
+
+/* em = element */
+.parent_em {
+  font-size: 16px;
+  background-color: yellow;
+  padding: 2em;
+}
+
+/* em boxen */
+.box {
+  background-color: grey;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+.box-klein {
+  font-size: 12px;
+}
+
+.box-gross {
+  font-size: 18px;
+}
+
+/* rem = root element */
+/* normalerweise root element immer oben in css */
+/* anstatt :root kann man auch html benutzen */
+/* 62.5% = 10px */
+:root {
+  font-size: 62.5%;
+}
+
+.rem {
+  font-size: 0.5rem;
+}
