@@ -93,3 +93,11 @@ a.test1:active {
 .rem {
   font-size: 0.5rem;
 }
+
+/* Syntax = Border: width style color */
+img.white-tiger {
+  width: 800px;
+  border: 14px outset green;
+  border-radius: 10%;
+  float: none;
+}
