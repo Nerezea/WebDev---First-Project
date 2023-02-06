@@ -81,6 +81,7 @@ a.test1:active {
   font-size: 18px;
 }
 
+/* viewport width height = vw / vh */
 /* rem = root element */
 /* normalerweise root element immer oben in css */
 /* anstatt :root kann man auch html benutzen */
