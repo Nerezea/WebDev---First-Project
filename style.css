@@ -100,4 +100,5 @@ img.white-tiger {
   border: 14px outset green;
   border-radius: 10%;
   float: none;
+  object-fit: cover;
 }
