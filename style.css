@@ -96,9 +96,29 @@ a.test1:active {
 
 /* Syntax = Border: width style color */
 img.white-tiger {
-  width: 800px;
+  width: 400px;
   border: 14px outset green;
   border-radius: 10%;
   float: none;
   object-fit: cover;
+}
+
+/* Prio ID/CLASS/TAG */
+/* !important gewinnt immer */
+
+.container {
+  background-color: green;
+}
+
+div.width_first {
+  border: 4px solid red;
+}
+
+div.width_second {
+  /* default value = auto */
+  width: 200px;
+  border: 4px solid red;
+}
+
+div.width_third {
 }
