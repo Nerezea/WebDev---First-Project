@@ -6,13 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <base target="blank" />
   </head>
   <body>
+    <header class="main_header">
+      <img
+        class="header_img"
+        src="./bilder/white-tiger.jpg"
+        alt="white tiger"
+      />
+    </header>
     <!-- main tag = Hauptinhalt -->
     <main class="container">
       <h2>über</h2>
       <p>unter</p>
-
       <ul>
         <li>first line</li>
         <li>second line</li>
@@ -46,7 +53,37 @@
       nostrum, incidunt architecto sapiente quas temporibus repudiandae.
       Voluptatibus fugiat quod praesentium blanditiis consequuntur.
     </div>
-
-    <img class="white-tiger" src="./bilder/white-tiger.jpg" alt="white tiger" />
+    <!-- margin auto -->
+    <div class="center">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
+      consectetur placeat modi mollitia incidunt reprehenderit veniam hic, quod
+      magnam optio.
+    </div>
+    <!-- overflow -->
+    <p class="overflow">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam vel velit
+      beatae. Illum voluptatibus odit nesciunt sint laudantium veritatis
+      perspiciatis. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      Commodi vero velit nulla illum temporibus odit assumenda adipisci sunt.
+      Consequuntur, nobis.
+    </p>
+    <!-- Block level elements -->
+    <p style="border: 1px solid black">block level p</p>
+    <div style="border: 1px solid black">block level div</div>
+    <!-- semantic => accessibility & SEO (google) -->
+    <!-- div, span => Non-semantic -->
+    <!-- article, section, aside, table, form => semantic -->
+    <section>
+      <h2>Harry Potter</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, mollitia?
+      </p>
+    </section>
+    <aside>
+      <h3>heading</h3>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, optio.
+      </p>
+    </aside>
   </body>
 </html>

@@ -103,6 +103,18 @@ img.white-tiger {
   object-fit: cover;
 }
 
+/* 100% vom Bild bei start der Seite sehen */
+/* in kombination mit header img.header_img */
+header.main_header {
+  height: 100vh;
+  width: 100vw;
+}
+
+header img.header_img {
+  height: 100%;
+  width: 100%;
+}
+
 /* Prio ID/CLASS/TAG */
 /* !important gewinnt immer */
 
@@ -121,4 +133,24 @@ div.width_second {
 }
 
 div.width_third {
+  width: 50%;
+  border: 4px solid red;
+}
+
+/* margin 0 auto um in der mitte zu positionieren */
+/* wichtig in kombination mit width sonst keine mitte */
+.center {
+  border: 4px solid green;
+  width: 300px;
+  margin: auto;
+}
+
+/* Overflow  - text geht über den border */
+.overflow {
+  border: 4px dotted black;
+  width: 500px;
+  height: 22px;
+  /* default visible */
+  /* overflow-x -y für nur bestimmte Achsen */
+  overflow: auto;
 }
