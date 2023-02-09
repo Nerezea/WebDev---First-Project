@@ -154,3 +154,9 @@ div.width_third {
   /* overflow-x -y für nur bestimmte Achsen */
   overflow: auto;
 }
+
+/* box sizing => border + padding + width/height */
+/* padding => top right bottom left */
+/* padding => top/bottom right/left */
+/* inline only use margin and padding left and right */
+/* inline width, height padding/margin bottom and top are ugly */
