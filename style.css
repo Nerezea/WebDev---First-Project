@@ -4,6 +4,7 @@ html {
 }
 
 body.service {
+  color: #fff;
   background-color: cornflowerblue;
   background-image: url("./bilder/IMG_1328.jpg");
   /* default: repeat */
@@ -11,7 +12,47 @@ body.service {
   /* first value: left right center (x-Axis) */
   /* second value: top bottom center (y-Axis) */
   background-position: right center;
-  color: #fff;
+  /* default: auto */
+  background-size: contain;
+}
+
+div.gradient {
+  background: linear-gradient(to left, red 20%, yellow 80%);
+  height: 500px;
+  width: 600px;
+}
+
+/* Positioning (5) */
+/* 1. static (default) */
+div.positioning {
+  border: 4px dotted #fff;
+  width: 500px;
+  height: 600px;
+}
+
+/* 2. relative */
+/* 3. fixed (unabhängig vom scrollen) */
+p.position_relative {
+  border: 4px solid violet;
+  position: relative;
+  left: 100px;
+}
+
+/* 4. absolute */
+div.positioning p.position_absolute {
+  border: 4px solid violet;
+  position: absolute;
+  left: 20px;
+}
+
+/* 5. sticky */
+div.positioning p.position_sticky {
+  border: 4px solid violet;
+  background-color: violet;
+  position: sticky;
+  bottom: 200px;
+  /* z-index */
+  z-index: -1;
 }
 
 /* Selector - Tag, Class, Id */
