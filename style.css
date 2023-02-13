@@ -1,5 +1,17 @@
 html {
   scroll-behavior: smooth;
+  height: 100%;
+}
+
+body.service {
+  background-color: cornflowerblue;
+  background-image: url("./bilder/IMG_1328.jpg");
+  /* default: repeat */
+  background-repeat: no-repeat;
+  /* first value: left right center (x-Axis) */
+  /* second value: top bottom center (y-Axis) */
+  background-position: right center;
+  color: #fff;
 }
 
 /* Selector - Tag, Class, Id */
