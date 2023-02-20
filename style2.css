@@ -1,0 +1,48 @@
+:root {
+  --blue: #93c5fd;
+  --yellow: #eab308;
+  --red: #dc2626;
+}
+
+body {
+  background-color: var(--blue);
+}
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: var(--yellow);
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+}
+
+.card {
+  height: 500px;
+  width: 500px;
+  box-shadow: 4px 3px 12px var(--red);
+  text-align: center;
+  margin: 200px auto;
+  position: relative;
+}
+
+.delete {
+  position: absolute;
+  bottom: 10px;
+  left: 150px;
+  background-color: var(--red);
+  width: 200px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.temp {
+  background: green;
+}
+
+.accessibility {
+  background-color: greenyellow;
+  color: darkblue;
+}

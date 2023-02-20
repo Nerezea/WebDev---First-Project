@@ -213,3 +213,10 @@ div.width_third {
 /* padding => top/bottom right/left */
 /* inline only use margin and padding left and right */
 /* inline width, height padding/margin bottom and top are ugly */
+
+.xyz {
+  background-color: red;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
