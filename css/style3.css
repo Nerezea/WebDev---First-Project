@@ -39,7 +39,18 @@
   padding: 0 30px;
 }
 
+picture {
+  display: block;
+  width: 100%;
+}
+
 img {
   max-width: 100%;
   margin-bottom: 15px;
+}
+
+/* min, prefered, max */
+.test {
+  font-size: clamp(12px, 2vw, 24px);
+  width: min(60%, 600px);
 }
