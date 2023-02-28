@@ -1,0 +1,24 @@
+.container {
+  /* Rest */
+  height: 400px;
+
+  /* Flexcontainer & Flexitems = display flex */
+  display: flex;
+
+  /* justify-content: flex-start (default) -> horizontal (main-axis) */
+  justify-content: space-between;
+  /* align items: stretch (default) -> vertical (cross-axis) */
+  align-items: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  margin: 0 5px;
+
+  /* Schrift mit Flex zentrieren */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
