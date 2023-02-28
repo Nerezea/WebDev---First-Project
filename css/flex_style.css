@@ -22,3 +22,41 @@
   justify-content: center;
   align-items: center;
 }
+
+.MenuWrap {
+  background-color: greenyellow;
+  font-size: 1rem;
+  padding: 0 1rem;
+  max-height: 3rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.ListItem,
+.LastItem {
+  text-decoration: none;
+  color: red;
+  margin-right: 1rem;
+}
+
+.LastItem {
+  margin-left: auto;
+}
+
+.center {
+  background-color: purple;
+  color: white;
+  height: 75px;
+  text-transform: uppercase;
+  font-size: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+}
