@@ -16,6 +16,8 @@
   column-gap: 5px;
   row-gap: 4px;
   gap: 4px;
+
+  grid-template: 100px 100px / 200px 100px;
 }
 
 .grid-item-1 {
