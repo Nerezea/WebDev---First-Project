@@ -10,6 +10,12 @@
   grid-template-columns: minmax(100px, 1fr) minmax(200px, 2fr) minmax(50px, 1fr);
   /* anzahl columns -> anstatt 1fr 1fr 1fr 1fr */
   grid-template-columns: repeat(4, 1fr);
+  /* very responsive */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  /* abstände zwischen boxen */
+  column-gap: 5px;
+  row-gap: 4px;
+  gap: 4px;
 }
 
 .grid-item-1 {
