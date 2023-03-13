@@ -1,0 +1,33 @@
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.container {
+  display: inline-block;
+  width: 150px;
+}
+
+.box {
+  height: 40px;
+  width: 40px;
+  font-size: 10px;
+  border-radius: 7px;
+  margin: 50px auto;
+}
+
+/* tr-pro: all => default */
+/* tr-du: 0s => default */
+.box1 {
+  background-color: aqua;
+  transition-property: all;
+  transition-duration: 7s;
+}
+
+.box2 {
+  background-color: lightcoral;
+}
+
+.box3 {
+  background-color: greenyellow;
+}
