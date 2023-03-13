@@ -17,17 +17,41 @@ h2 {
 }
 
 /* tr-pro: all => default */
-/* tr-du: 0s => default */
+/* tr-dur: 0s => default */
 .box1 {
   background-color: aqua;
-  transition-property: all;
-  transition-duration: 7s;
+  /* transition-property: all; */
+  /* transition-duration: 1s; */
+  transition: all 1s;
 }
 
 .box2 {
   background-color: lightcoral;
+  transition-property: all;
+  transition-duration: 3s;
 }
 
 .box3 {
   background-color: greenyellow;
+  font-size: 20px;
+  transition-property: font-size;
+  transition-duration: 6s;
+}
+
+.example2 {
+  font-size: 48px;
+
+  /* transition: font-size 7s; */
+
+  /* font, margin if more than one size or left */
+  transition-duration: 7s;
+  transition-property: font-size 15s, margin-left 3s;
+
+  /* ease = default */
+  transition-timing-function: ease;
+}
+
+.example2:hover {
+  font-size: 86px;
+  margin-left: 200px;
 }
