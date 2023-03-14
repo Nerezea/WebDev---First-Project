@@ -55,3 +55,69 @@ h2 {
   font-size: 86px;
   margin-left: 200px;
 }
+
+/* Animations */
+.first_animation {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  animation-name: example_1;
+  animation-duration: 4s;
+  position: absolute;
+  right: 0;
+  transition-duration: 2s;
+  transition-delay: 1s;
+}
+
+.first_animation:hover {
+  right: 200px;
+  transform: rotate(-45deg);
+}
+
+@keyframes example_1 {
+  from {
+    background-color: orange;
+  }
+  to {
+    background-color: blue;
+  }
+}
+
+.second_animation {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  animation-name: example_2;
+  animation-duration: 7s;
+}
+
+@keyframes example_2 {
+  0% {
+    background-color: orange;
+  }
+  25% {
+    background-color: blue;
+  }
+  75% {
+    background-color: white;
+  }
+}
+
+.moving_animation {
+  background-color: purple;
+  width: 100px;
+  height: 100px;
+  animation: move 3s;
+
+  position: absolute;
+  right: 0;
+}
+
+@keyframes move {
+  0% {
+    right: 0;
+  }
+  50% {
+    right: calc(100% - 200px);
+  }
+}
