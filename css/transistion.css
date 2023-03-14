@@ -107,17 +107,52 @@ h2 {
   background-color: purple;
   width: 100px;
   height: 100px;
-  animation: move 3s;
+
+  /* name duration transition interation */
+  animation: move 4s linear infinite;
 
   position: absolute;
-  right: 0;
+  right: 200px;
 }
 
 @keyframes move {
   0% {
-    right: 0;
+    right: 400px;
   }
   50% {
-    right: calc(100% - 200px);
+    right: calc(100% - 400px);
+  }
+}
+
+.btn_animation {
+  background-color: yellow;
+  padding: 0.4em 1em;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 2px 2px 8px;
+  cursor: pointer;
+
+  /* name duration interation count delay */
+  animation: btn 2s infinite 2s;
+}
+
+.btn_animation:hover,
+.btn_animation:focus {
+  animation: none;
+  background-color: blue;
+  color: white;
+}
+
+@keyframes btn {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
   }
 }
